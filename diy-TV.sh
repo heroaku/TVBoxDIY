@@ -9,7 +9,7 @@ cd $CURRENT_DIR/$DIR
 rm -rf $CURRENT_DIR/$DIR/release/*
 #添加PY支持
 #mkdir $CURRENT_DIR/$DIR/app/libs
-#wget --no-check-certificate -qO- "https://raw.githubusercontent.com/UndCover/PyramidStore/main/aar/pyramid.aar" -O $CURRENT_DIR/$DIR/app/libs/pyramid.aar
+#wget --no-check-certificate -qO- "https://github.com/heroaku/TVboxo/raw/main/Jar/pyramid.aar" -O $CURRENT_DIR/$DIR/app/libs/pyramid.aar
 #sed -i "/squareup/a\    implementation files('libs@pyramid.aar')" $CURRENT_DIR/$DIR/app/build.gradle
 #sed -i 's#@#\\#g' $CURRENT_DIR/$DIR/app/build.gradle
 #sed -i 's#pyramid#\\pyramid#g' $CURRENT_DIR/$DIR/app/build.gradle
