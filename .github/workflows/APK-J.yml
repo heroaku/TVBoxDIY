@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Clone Project
-        run: git clone -b main --depth=1 https://github.com/q215613905/TVBoxOS.git
+        run: git clone -b main --depth=1 https://github.com/heroaku/TVBoxOS_q215613905.git
       - name: DIY
         run: |
           chmod +x diy-J.sh
@@ -36,5 +36,5 @@ jobs:
       - name: Upload App To Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: com.github.tvbox.osc
+          name: com.github.pjbox.osc
           path: ${{ github.workspace }}/apk/*
